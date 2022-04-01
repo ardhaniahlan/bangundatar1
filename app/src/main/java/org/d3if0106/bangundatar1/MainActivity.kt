@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.TextUtils
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatDelegate
 import org.d3if0106.bangundatar1.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,13 @@ class MainActivity : AppCompatActivity() {
 
         binding.btnHitung.setOnClickListener{
             keliling()
+        }
+
+        binding.switchMode.setOnCheckedChangeListener { buttonView, isChecked ->
+            if (isChecked)
+                AppCompatDelegate.setDefaultNightMode( AppCompatDelegate.MODE_NIGHT_YES)
+            else
+                AppCompatDelegate.setDefaultNightMode( AppCompatDelegate.MODE_NIGHT_NO)
         }
     }
 

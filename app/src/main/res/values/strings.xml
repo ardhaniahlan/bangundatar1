@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BangunDatar1</string>
+    <string name="hasil">%1$.2f</string>
 </resources>

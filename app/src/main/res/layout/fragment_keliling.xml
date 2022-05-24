@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/keliling_lingkaran"
+        android:padding="20sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:background="#4E944F"
+        android:textColor="#E9EFC0"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rumus Luas = 2*𝛑*r"
+        android:paddingStart="30sp"
+        android:paddingEnd="30sp"
+        android:paddingTop="30sp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#4E944F"
+        />
+
+    <EditText
+        android:id="@+id/jarijari"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:hint="Masukan Jari - Jari"
+        android:inputType="number"
+        android:minHeight="48dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_hitung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:backgroundTint="#4E944F"
+            android:text="@string/hitung"
+            />
+
+        <Button
+            android:id="@+id/btn_bagikan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity=""
+            android:backgroundTint="#4E944F"
+            android:text="@string/bagikan"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/hasil_perhitungan_kel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hasil Perhitungan"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20sp"
+        android:paddingEnd="20sp"
+        android:gravity=""
+        >
+
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mode Gelap"
+            android:textSize="20sp"
+            android:padding="10sp"
+            android:textStyle="bold"
+            />
+
+        <com.google.android.material.switchmaterial.SwitchMaterial
+            android:id="@+id/switchMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10sp"
+            android:gravity="end" />
+
+    </LinearLayout>
+
+</LinearLayout>

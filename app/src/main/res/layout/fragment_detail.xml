@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E9EFC0"
+    tools:context=".ui.detail.DetailFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lingkaran"
+        android:padding="20sp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:textColor="#4E944F"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20sp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/p_lingkaran"
+            android:textColor="#4E944F"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/unsur"
+            android:textColor="#4E944F"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="20sp"
+            />
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="150sp"
+            android:src="@drawable/unsur"
+            android:layout_gravity="center"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/d_unsur"
+            android:textColor="#4E944F"
+            />
+
+        <Button
+            android:id="@+id/rumusKel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/rumus_keliling"
+            android:textColor="#E9EFC0"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:padding="20sp"
+            android:backgroundTint="#4E944F"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

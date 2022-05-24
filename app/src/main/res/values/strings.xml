@@ -1,4 +1,53 @@
 <resources>
     <string name="app_name">BangunDatar1</string>
     <string name="hasil">%1$.2f</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="bangun_datar">Bangun Datar</string>
+    <string name="persegi">Persegi</string>
+    <string name="p_lingkaran">
+        Lingkaran adalah tempat kedudukan titik-titik yang berjarak sama dengan satu titik tertentu.
+        Yang dimaksud titik tertentu adalah titik pusat lingkaran, sedangkan jarak yang sama adalah
+        jari-jari lingkaran.
+    </string>
+    <string name="unsur">Unsur - Unsur Lingkaran</string>
+    <string name="d_unsur">
+        Unsur-unsur lingkaran terdiri dari:
+
+1. Titik Pusat (P): Titik yang menjadi pusat lingkaran yang terletak tepat di tengah lingkaran
+
+2. Jari-jari (r): jarak antara pusat lingkaran dengan titik pada lingkaran
+
+3. Diameter (d): garis yang menghubungkan dua titik pada lingkaran melalui titik pusat
+
+4. Busur Lingkaran: garis berbentuk melengkung pada tepian lingkaran
+
+5. Tali Busur: garis yang menghubungkan dua titik pada lingkaran
+
+6. Juring Lingkaran: daerah yang dibatasi oleh busur dan dua jari-jari lingkaran
+
+7. Tembereng: daerah yang dibatasi oleh busur dan tali busur
+
+8. Apotema: garis yang menghubungkan titik pusat dengan tali busur (tegak lurus dengan tali busur)
+    </string>
+    <string name="rumus_keliling">Rumus Keliling</string>
+    <string name="keliling_lingkaran">Keliling Lingkaran</string>
+    <string name="hitung">Hitung</string>
+    <string name="t_aplikasi">Aplikasi ini adalah aplikasi
+        pengertian serta perhitungan rumus dari bangun datar
+    </string>
+    <string name="bagikan">Bagikan</string>
+
+    <string name="bagikan_template">Hasil rumus keliling: %1$s kg\n Jari-Jari: %2$s</string>
+    <string name="belum_ada_data" />
+
+    <string name="hasil_x">Hasil: %1$.2f</string>
+    <string name="data_x">2 * 3.14 * %1$.2f</string>
+    <string name="hapus_histori">Hapus Histori</string>
+
+    <string name="konfirmasi_hapus">Hapus semua histori?</string>
+    <string name="hapus">Hapus</string>
+    <string name="batal">Batal</string>
+
 </resources>

@@ -7,79 +7,11 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/nav_host"
+        android:name="androidx.navigation.fragment.NavHostFragment"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Keliling Lingkaran"
-        android:textSize="40dp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginTop="50dp"
-        />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Rumus Luas = 2*𝛑*r"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="30dp"
-        />
-
-    <EditText
-        android:id="@+id/jarijari"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
-        android:hint="Masukan Jari - Jari"
-        android:minHeight="48dp"
-        />
-
-    <Button
-        android:id="@+id/btn_hitung"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:text="Hitung"
-        />
-
-    <TextView
-        android:id="@+id/hasil_perhitungan_kel"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Hasil Perhitungan"
-        android:textSize="15sp"
-        android:gravity="center"
-        android:layout_marginTop="10dp"
-        />
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="80dp"
-            android:padding="10dp"
-            android:layout_marginStart="30dp"
-            android:text="Mode Gelap"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            />
-
-        <com.google.android.material.switchmaterial.SwitchMaterial
-            android:id="@+id/switchMode"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_alignParentBottom="true"
-            android:layout_marginEnd="30dp"
-            />
-
-    </RelativeLayout>
+        android:layout_height="match_parent"
+        app:navGraph="@navigation/my_nav"/>
 
 </LinearLayout>

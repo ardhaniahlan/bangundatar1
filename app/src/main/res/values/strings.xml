@@ -39,7 +39,7 @@
     </string>
     <string name="bagikan">Bagikan</string>
 
-    <string name="bagikan_template">Hasil rumus keliling: %1$s kg\n Jari-Jari: %2$s</string>
+    <string name="bagikan_template">Hasil rumus keliling: %1$s \n Jari-Jari: %2$s</string>
     <string name="belum_ada_data" />
 
     <string name="hasil_x">Hasil: %1$.2f</string>
